@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link href="./static/lock.ico" rel="icon">
+    <title>aex-Z Password-Checker</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="./index.html">Home</a>
+            <a>Coming soon</a>
+            <div class="dropdown">
+              <button class="dropbtn">My portfo
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Coming soon</a>
+              </div>
+            </div>
+            <div class="logo"><a>aex-Z <img class="img" src="/static/lock.ico" alt=""></a></div>
+          </div>
+        <h1> Here is your Result!</h1> 
+        <div class="ans-box" align="center">{{ msg }}</div>
+        <div>
+          <form action="submit_form" method="post">
+            <div class="contectsection" align="center">
+              <h3>Contact Me:</h3>
+              <input id="email" name='email' type="email" placeholder="Email" autocomplete="off" required>
+            </div>
+            <div class="msgfild" align="center">
+              <textarea id="message" name="message" class="message" cols="21" rows="5" placeholder="Message.. (min 50 char)" minlength="50" required></textarea><br><br>
+            <button type="submit" class="submit-form">Submit Form</button>
+            </div>
+          </form>
+        <footer class="bottomtext">
+          🔐aex-Z Password Checker
+        </footer>
+        </div>
+    </header>
+</body>
+</html>

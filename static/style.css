@@ -1,0 +1,251 @@
+html{
+    height: 100%;
+    width: 100%;
+   }
+   
+body{
+    width: 100%;
+    height: 100%;
+   } 
+
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    color: black;
+
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(86, 193, 212);
+    text-align: right;
+    padding: 5px 16px;
+    text-decoration: none;
+    padding-top: 15px;
+
+}
+
+/* The dropdown container */
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+font-size: 16px;
+border: none;
+outline: none;
+color:rgb(86, 193, 212);
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit; /* Important for vertical align on mobile phones */
+margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+.navbar a:hover{
+    background-color: black;
+    height: 32px;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #333;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+color: rgb(86, 193, 212);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+input {
+    background-color: #333;
+    font-size: medium;
+    color: white;
+    width: 200px;
+    height: 25px;
+    border-width: 5px;
+    border-color: tomato;
+    margin: 0;
+
+}
+.submit, .submit-form {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px black;
+    font-family: inherit;
+    margin: 0;
+
+}
+
+
+.submit:hover, .submit-form:hover {
+    border-color: black;
+    box-shadow: 2px 3px ;
+    background-color: rgb(52, 150, 231);
+}
+
+input:hover{
+    border-color: yellow;
+}
+.inside-text{
+    margin-top: 150px;
+}
+
+h1:hover, .bottomtext:hover, .securemsg:hover{
+    text-shadow: 1px 1px 1px yellow;
+}
+
+
+@media (min-width: 64em){
+    .media-only::before{
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        content: "How many time your Password got hacked before?";
+    }
+    
+}
+@media (max-width: 75em){
+    .media-only::before{
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        content: "Check your password here!";
+    }
+}
+
+@media (min-width: 64em){
+    .securemsg::before{
+        content: "This website can tell how secure is your password? Feel more secure, with aex-Z password checker!";
+    }
+}
+
+@media (max-width: 75em){
+    .securemsg::before{
+        content: "Feel More secure";
+    }
+}
+
+
+.securemsg{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+.bottomtext{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    position: relative;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    margin: 0;  
+}
+
+.contectsection{
+
+    align-content: center;
+    position: fixed;
+    top: 300px;
+    width: 100%;
+    margin: 0;
+}
+.msgfild{
+
+    position: fixed;
+    top: 400px;
+    width: 100%;
+    margin: 0;
+
+}
+
+textarea{
+    resize: none;
+}
+
+.message {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+
+}
+
+.logo a {
+    float: right;
+    padding-right: 2%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white; 
+    
+}
+
+.logo a:hover{
+    background-color: #333;
+}
+
+.img {
+    width: 15%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */  
+}
+
+.contect-me {
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 0;
+
+}
+
+.ans-box{
+    width: 97%;
+    height: 100px;
+    padding: 10px;
+    background-color: white;
+    border: 5px solid black;
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+  }

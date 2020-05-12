@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <link href="./static/lock.ico" rel="icon">
+    <title>aex-Z Password-Checker</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="">Home</a>
+            <a href="">Coming soon</a>
+            <div class="dropdown">
+              <button class="dropbtn">My portfo
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Coming soon</a>
+              </div>
+            </div>
+            <div class="logo"><a>aex-Z <img class="img" src="/static/lock.ico" alt=""></a></div>
+            
+          </div>
+        <h1 class="media-only"></h1> 
+    </header>
+    <div class="inside-text" align="center">
+      <form action="submit_password" method="post">
+        <input name='firstname' id="firstname" type="text" placeholder="First Name" autocomplete="off" required><br><br>
+        <input name='name' type="text" placeholder="Last Name" autocomplete="off" required><br><br>
+        <input name='password' type="password" id="password" placeholder="Password" pattern=".{2,}" required title="2 characters minimum" ><br><br>
+        <button type="submit" class="submit">Check now</button><br><br><br>
+      </form>
+    </div>
+  <div>
+    <footer class="securemsg">
+    </footer>
+    <footer class="bottomtext">
+      Yes, it's free. Check your password with aex-Z Password Checker. 🔐
+    </footer>
+  </div>  
+
+</body>
+</html>
